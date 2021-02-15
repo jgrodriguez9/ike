@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.text-primary1{
+    color: #003C91;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.font-weight-bold-600{
+    font-weight: 600;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-1-2rem{
+    font-size: 1.2rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.error{
+    border-color: #EF4832;
 }
-
-.App-link {
-  color: #61dafb;
+.input-login{
+    height: 45px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-transparent{
+    background-color: transparent;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.btn-login,
+.btn-login:hover,
+.btn-login:focus,
+.btn-login:active{
+    background-color: #3C81BF!important;
+    border-color: #3C81BF!important;
+    height: 40px;
+    box-shadow: none!important;
+    outline: none;
+}
+.input-group-text{
+    border-top-right-radius: .25rem!important;
+    border-bottom-right-radius: .25rem!important;
+}
+.main{
+    height: 100vh;
+    overflow: hidden;
+}
+.text-primary2{
+    color: #004884;
+}
+.letter-bienvenidos{
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    transform: translate(-10px, -35px);
 }
